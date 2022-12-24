@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home2"
+    android:orientation="vertical"
+    android:background="@color/DarkSlateGray">
+
+    <TextView
+        android:id="@+id/textH"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="Devinette"
+        android:background="@color/LightSeaGreen"
+        android:textAlignment="center"
+        android:textColor="@color/Azure"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        android:typeface="serif" />
+
+    <ImageView
+        android:id="@+id/imageViewH"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/number_guessing_game_transparent"
+        />
+    <TextView
+        android:id="@+id/btnH"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:text="Saisir Votre Nom et Prenom"
+        android:textColor="@color/Azure"
+        android:textStyle="bold"
+        android:background="@color/LightSeaGreen"
+        android:textSize="25sp" />
+    <EditText
+        android:id="@+id/editH"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:autofillHints=""
+        android:textColor="@color/white"
+        android:hint="Taper ici ..."
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/btnEntrerH"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="110dp"
+        android:backgroundTint="@color/DeepSkyBlue"
+        android:text="Entrer"
+        android:layout_gravity="center"
+        android:textColor="@color/White"
+        android:textSize="20sp"
+        />
+
+
+
+</LinearLayout>
